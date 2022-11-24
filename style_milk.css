@@ -1,0 +1,273 @@
+@import url(https://allfont.ru/allfont.css?fonts=comfortaa-bold);
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Style the body */
+body {
+  font-family: Arial;
+}
+
+
+.logo{
+    width: 90px;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items:center;
+}
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  margin-top:10px;
+  background-color: rgba(255, 255, 255, 0.678);
+  justify-content:space-around;
+  border-top-color:#BAEAFA;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-bottom-color: #BAEAFA;
+  border-bottom-width:3px;
+  border-bottom-style: solid;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar1{
+    display: flex;
+    position:left;
+}
+.navbar2{
+    display: flex;
+    position:right;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  text-decoration: none;
+  padding: 10px 40px;
+}
+a{
+    font-family:"Comfortaa";
+    font-weight: 300;
+    font-size: 16;
+    color: black;
+    text-decoration: none;
+}
+b{
+    font-family: "Comfortaa";
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+}
+/* Change color on hover */
+.navbar a:hover {
+  color: #BAEAFA;
+}
+#a1{
+    font-size: 18;
+}
+
+/* Main column */
+
+ .image-border{
+    width: 100%;
+    border-radius: 20px;
+ }
+ /*align-items: center;*/
+ 
+ 
+ /*           */
+ .module_1{       
+    display: flex;            /*Это свойство определяет выравнивание вдоль главной оси. Оно помогает распределить дополнительный остаток свободного пространства, когда-либо все flex элементы в строке негибкие, либо гибкие, но достигли своего максимального размера. */
+    flex-wrap: wrap;         /*flex-элементы будут перенесены на несколько строк сверху вниз.*/
+    background-color: #a3a3a300;
+    max-width: 1170px;  /*ширина контейнера*/
+    margin:auto;        /*отступы от краёв экрана----pudding-внутренние отступы*/     
+    margin-top: 40px;
+
+    
+ }
+
+ .module_1_1{       
+    flex:45%;
+    background-color: #7ed4ff00;
+    /*width:50%;    ширина контейнера 50% от модуля 1*/
+    
+ }
+ 
+ .module_1_2{    
+    flex: 55%;
+    background-color: #c5ff7800;
+ }
+
+ .image-border{
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px 10px 0 10px;
+ }
+ .module_1_1_text{
+    
+    margin: 110px 50px 0 50px;  /* верх.право.низ.лево */
+    background-color: #c57eff00;
+    text-align:center;
+ }
+ .module_1_1_text2{
+    margin: 40px 0 40px 0;
+    height: 60px;
+    background-color: #f4f46a00;
+    text-align:center;
+    align-items: center;
+ }
+ .button1{
+    background-color: #ACECFC;
+    border-radius: 90px;
+    width: 220px;
+    height: 80px;
+    padding-top: 30px;
+    margin: 0 auto;          /* Центрирование одного контейнера в другом!!!!!!!!!!!!!!!!!!!!!!1 РАботает даже во flex*/
+
+ }
+
+
+ 
+ .module_2_1{ 
+   display: flex;            /*Это свойство определяет выравнивание вдоль главной оси. Оно помогает распределить дополнительный остаток свободного пространства, когда-либо все flex элементы в строке негибкие, либо гибкие, но достигли своего максимального размера. */
+   /*flex-wrap: wrap;         /*flex-элементы будут перенесены на несколько строк сверху вниз.*/
+   background-color: #acecfc00;
+    width: 370px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align:left; 
+    /*border-color: black;
+    border-width: 2px;
+    border: solid;*/
+    position: relative;
+    
+
+   }
+
+   #module_2_block_1{
+      right:50x;
+    }
+ 
+
+ .block_1_image{
+   display: flex;
+   height: 75px;
+   background-color: #ff770000;
+   margin-top:10px ;
+   margin-left: auto;
+   margin-bottom: 100px;
+   flex-direction: column;
+ }
+ .block_1_text{
+   display: flex;
+   width: 230px;
+   height: 75px;
+   background-color: #91ff0000;
+   margin-left: 10px;
+   margin-top: 10px;
+   margin-right: auto;
+ }
+
+ #block_1_text_zag{
+   font-weight: bold;
+   font-size: 1em;
+   line-height:200%;
+
+ }
+ #block_1_text_osn{
+   font-size: 0.8em;
+ }
+#module_3{
+   background-color:#6976ff00;
+   margin-top: 40px;
+}
+#module_2{
+   margin-top: 40px; /*--------------------------------------------------------*/
+   margin-bottom: 0;
+}
+
+#module_3_zag{
+display: flex;
+flex-wrap: wrap; 
+flex-direction: column;
+margin: 0 auto;
+flex: 100%;
+margin-bottom: 20px;
+}
+
+#module_4{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+
+.image-border5{
+   width: 100%;
+}
+
+.otzv{
+   display: flex;
+   background-color: #6976ff00;
+   width: 1100;
+   margin-top: 40px;
+   margin-left:50px ;
+   margin-right: 50px;
+   margin-bottom: 40px;
+   height: 500px;
+   border-color: #BAEAFA;
+   border-width:3px;
+   border-style: solid;
+   flex-direction: column;
+  
+}
+
+.block_in_1{
+   display: flex;
+   background-color: #d5bafa00;
+   width: 100%;
+}
+
+.block_in_2{
+   display: flex;
+   flex-direction:row;
+   background-color: #bafac000;
+   width: 100%;
+  
+}
+.block_in_2_1{
+   display: flex;
+   background-color: #fabae800;
+   width: 100%;
+   height: 100%;
+}
+
+
+.image-last{
+   display: flex;
+   height:350px;
+   margin: auto;
+}
+
+
+#catt{
+   height: 50px;
+   padding-top: 17px;
+   width: 200px;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+   .navbar,.navbar1,.navbar2,.module_1,.block_in_2,.otzv,.block_in_1,.cat_beetwen,.cat_in {   
+     flex-direction: column;
+   }
+ }
